@@ -1,19 +1,10 @@
-## Getting Started
+# Battleship Server
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to Battleship Server! This Java-based application acts as a processor and provides endpoints for handling Battleship game sessions. With the server running, clients can connect to it to start and manage their Battleship games.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# Battleship-Server
+- **Game Management**: Handle the creation, management, and termination of Battleship game sessions.
+- **Client Communication**: Communicate with clients via endpoints to facilitate game setup, moves, and updates.
+- **Scalability**: Designed to handle multiple concurrent game sessions and client connections.
+- **Customizable**: Configurable settings for game rules, server port, and other parameters.
